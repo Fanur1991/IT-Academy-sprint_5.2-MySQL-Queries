@@ -2,11 +2,6 @@
 
 Este ejercicio se centra exclusivamente en realizar consultas a una base de datos (tienda y unviersidad) utilizando MySQL
 
-##### Trabajo del Sprint 5.2 de IT-Academy en la especialización de Node.js.
-
-> [!IMPORTANT]  
-> Si ya existe una base de datos con el mismo nombre, se recomienda cambiar el nombre de la base de datos en los scripts (schema, inserts y queries) o eliminar/renombrar la base de datos existente.
-
 ## Tienda
 
 El repositorio modela la gestión de una tienda de productos electrónicos. Resumen de los puntos clave:
@@ -28,9 +23,6 @@ El repositorio modela la gestión de una tienda de productos electrónicos. Resu
 - Lista el nombre de todos los fabricantes en una columna, y en otra columna obtén en mayúsculas los dos primeros caracteres del nombre del fabricante.
 - Lista los nombres y precios de todos los productos en la tabla "Producto", redondeando el valor del precio.
 - Lista los nombres y precios de todos los productos en la tabla "Producto", truncando el valor del precio para mostrarlo sin decimales.
-
-> [!NOTE]  
-> Estas son solo algunas de las consultas. Para obtener más detalles, consulta el [script](./1-tienda/scripts/queries_tienda.sql) de las queries.
 
 ## Universidad
 
@@ -57,9 +49,10 @@ El repositorio modela la gestión de una universidad. Resumen de los puntos clav
 - Retorna un listado con el nombre de todos los departamentos que tienen profesores/as que imparten alguna asignatura en el Grado en Ingeniería Informática (Plan 2015).
 - Retorna un listado con todos los alumnos que se han matriculado en alguna asignatura durante el curso escolar 2018/2019.
 
-> [!NOTE]  
-> Estas son solo algunas de las consultas. Para obtener más detalles, consulta los siguientes scripts de las queries: [script_1](./2-universidad/scripts/queries_nivel_1.sql), [script_2](./2-universidad/scripts/queries_nivel_2.sql) y [script_3](./2-universidad/scripts/queries_nivel_3.sql)
+## License
 
-## Licencia
+This project is distributed under the Apache 2.0 license.
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE.md](./LICENSE.md) para más detalles.
+---
+
+Developed by [Fanur Khusainov](https://www.linkedin.com/in/fanur-khusainov-ab86b2102/) with ❤️ and ☕.
